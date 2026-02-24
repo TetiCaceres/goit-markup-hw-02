@@ -85,22 +85,12 @@ img {
 .hero-button:focus {
   background-color: var(--accent-hover);
 }
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  line-height: 1.2;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+
 
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-text);
 }
@@ -112,7 +102,7 @@ img {
 .team {
   background-color: var(--light);
 }
-.title2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -128,6 +118,7 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   text-align: center;
   color: var(--title-text);
 }
